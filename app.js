@@ -29,4 +29,5 @@ server.listen(port, function () {
 });
 
 app.get("/", function(req, res) {
-    re
+   return res.render('main');
+});
